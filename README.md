@@ -1,8 +1,7 @@
 # Coaching-Portal
-A portal for online teaching in coaching
-made in php
-Key Features:
+A portal for online teaching in coaching made in php
 
+Key Features:
 - Time based video comes up
 - Time based video goes down
 - counter to display the upcoming videos
