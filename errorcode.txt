@@ -1,0 +1,8 @@
+code  meaning
+100 - failed to update Value;
+101 - session error
+102 - 2nd lvl value upate failed
+
+010Sr2dh20GaW1E6rwxktR0azOXt1
+MEDICS
+621561
