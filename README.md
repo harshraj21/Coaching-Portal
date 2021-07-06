@@ -15,4 +15,13 @@
 - counter to display videos and activity
 ```
 
-Free to use (3 month project)
+**Usage-**
+```
+1. Download the repo
+2. Apply the relevant changes according to your institution
+3. Deploy it to Apache Server
+```
+
+> Free to use (3 month project)
+
+*PR always appretiated*
