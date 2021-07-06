@@ -66,7 +66,7 @@ if (!(empty($_POST["mobno"]) || empty($_POST["rollno"]) || empty($_POST["name"])
                     $body = "Hey, " . $dat . "\nYour OTP is: " . $otp . "\nTo Register Into The Portal\n(Dont Share This With Anyone)\nWith Best Regards,\nOptimus/Medicus Patna.";
                     $body = str_replace(" ", $space, $body);
                     $body = str_replace("\n", $newline, $body);
-                    file_get_contents('http://onextelbulksms.in/shn/api/pushsms.php?usr=621561&key=' . $apikey . '&sndr=MEDICS&ph=' . $mobno . '&text=' . $body);
+                    file_get_contents('http://onextelbulksms.in/shn/api/pushsms.php?usr=7546&key=' . $apikey . '&sndr=harsh&ph=' . $mobno . '&text=' . $body);
                     $_SESSION['roll'] = $user;
                     $status = 1;
                 } else {
@@ -143,7 +143,7 @@ if (!(empty($_POST['resend']))) {
             $body = "Hey, " . $dat . "\nYour OTP is: " . $otp . "\nTo Register Into The Portal\n(Dont Share This With Anyone)\nWith Best Regards,\nOptimus/Medicus Patna.";
             $body = str_replace(" ", $space, $body);
             $body = str_replace("\n", $newline, $body);
-            file_get_contents('http://onextelbulksms.in/shn/api/pushsms.php?usr=621561&key=' . $apikey . '&sndr=MEDICS&ph=' . $mobno . '&text=' . $body);
+            file_get_contents('http://onextelbulksms.in/shn/api/pushsms.php?usr=7546&key=' . $apikey . '&sndr=harsh&ph=' . $mobno . '&text=' . $body);
             $status = 1;
             $times = 0;
             $messtype = 1;
