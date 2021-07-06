@@ -12,7 +12,7 @@ $secret = "harsh@123";
 $times = 1;
 $space = "+";
 $newline = "%0a";
-$apikey = "010Sr2dh20GaW1E6rwxktR0azOXt1";
+$apikey = "nfuinseuiHfiofwF388nuun";
 function getIPAddress()
 {
     if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
@@ -99,7 +99,7 @@ if (!(empty($_POST["roll"]) || empty($_POST["pass"]))) {
                         $body = "Hey, " . $dat . "\nYour OTP is: " . $otp . "\nTo Verify Your Login\nThis OTP is valid for 15min\n(Dont Share This With Anyone)\nWith Best Regards,\nOptimus/Medicus Patna.";
                         $body = str_replace(" ", $space, $body);
                         $body = str_replace("\n", $newline, $body);
-                        file_get_contents('http://onextelbulksms.in/shn/api/pushsms.php?usr=621561&key=' . $apikey . '&sndr=MEDICS&ph=' . $mob . '&text=' . $body);
+                        file_get_contents('http://onextelbulksms.in/shn/api/pushsms.php?usr=7546&key=' . $apikey . '&sndr=harsh&ph=' . $mob . '&text=' . $body);
                         $_SESSION['roll'] = $user;
                         $status = 1;
                     } else {
@@ -171,7 +171,7 @@ if (!(empty($_POST['resend']))) {
             $body = "Hey, " . $dat . "\nYour OTP is: " . $otp . "\nTo Verify Your Login\nThis OTP is valid for 15min\n(Dont Share This With Anyone)\nWith Best Regards,\nOptimus/Medicus Patna";
             $body = str_replace(" ", $space, $body);
             $body = str_replace("\n", $newline, $body);
-            file_get_contents('http://onextelbulksms.in/shn/api/pushsms.php?usr=621561&key=' . $apikey . '&sndr=MEDICS&ph=' . $mobno . '&text=' . $body);
+            file_get_contents('http://onextelbulksms.in/shn/api/pushsms.php?usr=7546&key=' . $apikey . '&sndr=harsh&ph=' . $mobno . '&text=' . $body);
             $status = 1;
             $times = 0;
             $messtype = 1;
